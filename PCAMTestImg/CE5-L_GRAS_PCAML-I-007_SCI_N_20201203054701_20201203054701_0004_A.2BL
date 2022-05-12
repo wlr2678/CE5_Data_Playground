@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:sp="http://pds.nasa.gov/pds4/sp/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1,https://starbase.jpl.nasa.gov/pds4/1500/dph_example_products/xml_schema/PDS4_PDS_1500.xsd,http://pds.nasa.gov/pds4/sp/v1 PDS4_SP_1001.xsd">
+	<Identification_Area>
+		<logical_identifier>CE5-L_GRAS_PCAML-I-007_SCI_N_20201203054701_20201203054701_0004.2B</logical_identifier>
+		<version_id>1.0</version_id>
+		<title>Chang'E 5(CE-5) Lander mission</title>
+		<information_model_version>1.5.0.0</information_model_version>
+		<product_class>Product_Observational</product_class>
+		<Modification_History>
+			<Modification_Detail>
+				<modification_date>2020-12-01</modification_date>
+				<version_id>1.0</version_id>
+				<description>First release.</description>
+			</Modification_Detail>
+		</Modification_History>
+	</Identification_Area>
+	<Reference_List>None</Reference_List>
+	<Observation_Area>
+		<Time_Coordinates>
+			<start_date_time>2020-12-03T05:47:01.931Z</start_date_time>
+			<stop_date_time>2020-12-03T05:47:01.931Z</stop_date_time>
+		</Time_Coordinates>
+		<Primary_Result_Summary>
+			<purpose>Science</purpose>
+			<processing_level>Calibrated</processing_level>
+			<Science_Facets>
+				<wavelength_range>Visible</wavelength_range>
+				<domain>Surface</domain>
+			</Science_Facets>
+		</Primary_Result_Summary>
+		<Investigation_Area>
+			<name>CE5</name>
+			<type>Mission</type>
+		</Investigation_Area>
+		<Observing_System>
+			<name>Observing System for CE5 Lander</name>
+			<Observing_System_Component>
+				<name>Panoramic Camera</name>
+				<type>Instrument</type>
+				<description />
+			</Observing_System_Component>
+		</Observing_System>
+		<Target_Identification>
+			<name>Lunar</name>
+			<type>Satellite</type>
+		</Target_Identification>
+		<Mission_Area>
+			<product_id>CE5-L_GRAS_PCAML-I-007_SCI_N_20201203054701_20201203054701_0004_A.2B</product_id>
+			<product_version>A</product_version>
+			<product_level>2B</product_level>
+			<instrument_name>Panoramic Camera</instrument_name>
+			<instrument_id>PCAM</instrument_id>
+			<sequence_id>0004</sequence_id>
+			<Work_Mode_Parm>
+				<work_mode>Static</work_mode>
+				<exposure_mode>Manual</exposure_mode>
+				<automatic_exposure_mean_gray>550</automatic_exposure_mean_gray>
+				<exposure_gear>12</exposure_gear>
+				<exposure_time unit="ms">6.500</exposure_time>
+			</Work_Mode_Parm>
+			<Instrument_Parm>
+				<bands unit="nm">400-700</bands>
+				<focal_length unit="mm">50.662</focal_length>
+				<pixel_size unit="micrometer">7.40</pixel_size>
+				<principle_point_coordinate>
+					<X unit="mm">0.087257</X>
+					<Y unit="mm">-0.135960</Y>
+				</principle_point_coordinate>
+			</Instrument_Parm>
+			<Lander_Location>
+				<reference_frame>MOON_COORDINATE_SYSTEM</reference_frame>
+				<Longitude unit="deg">-51.837200</Longitude>
+				<latitude unit="deg">43.101299</latitude>
+			</Lander_Location>
+			<Vector_Cartesian_3_Pointing>
+				<reference_frame>LANDER_COORDINATE_SYSTEM</reference_frame>
+				<up_left_point_observe_vector>
+					<X>-0.101604</X>
+					<Y>0.978543</Y>
+					<Z>0.179249</Z>
+				</up_left_point_observe_vector>
+				<down_left_point_observe_vector>
+					<X>-0.099816</X>
+					<Y>0.992727</Y>
+					<Z>-0.067309</Z>
+				</down_left_point_observe_vector>
+				<up_right_point_observe_vector>
+					<X>0.233737</X>
+					<Y>0.955386</Y>
+					<Z>0.180568</Z>
+				</up_right_point_observe_vector>
+				<down_right_point_observe_vector>
+					<X>0.235744</X>
+					<Y>0.969563</Y>
+					<Z>-0.066129</Z>
+				</down_right_point_observe_vector>
+				<center_point_observe_vector>
+					<X>0.068474</X>
+					<Y>0.995971</Y>
+					<Z>0.057909</Z>
+				</center_point_observe_vector>
+			</Vector_Cartesian_3_Pointing>
+			<Exterior_Orientation_Elements>
+				<reference_frame_id>MOON_COORDINATE_SYSTEM</reference_frame_id>
+				<camera_center_position_X>0.272920</camera_center_position_X>
+				<camera_center_position_Y>-1.598227</camera_center_position_Y>
+				<camera_center_position_Z>1.366830</camera_center_position_Z>
+				<camera_rotation_angle_ROLL unit="deg">3.143765</camera_rotation_angle_ROLL>
+				<camera_rotation_angle_PITCH unit="deg">0.430478</camera_rotation_angle_PITCH>
+				<camera_rotation_angle_YAW unit="deg">85.949996</camera_rotation_angle_YAW>
+			</Exterior_Orientation_Elements>
+			<Rotation_angle>
+				<pitch unit="deg">90.000000</pitch>
+				<yawing unit="deg">-90.000000</yawing>
+				<description>Mast_Pointing_Instrument</description>
+			</Rotation_angle>
+			<Angle_pointing_results>
+				<solar>
+					<incidence_angle unit="deg">44.776450</incidence_angle>
+					<azimuth_angle unit="deg">159.162177</azimuth_angle>
+				</solar>
+			</Angle_pointing_results>
+		</Mission_Area>
+	</Observation_Area>
+	<File_Area_Observational>
+		<File>
+			<file_name>CE5-L_GRAS_PCAML-I-007_SCI_N_20201203054701_20201203054701_0004_A.2B</file_name>
+			<local_identifier>None</local_identifier>
+			<creation_date_time>2020-12-03T11:05:33Z</creation_date_time>
+			<file_size unit="byte">8128512</file_size>
+			<records>1</records>
+		</File>
+		<Array_2D_Image>
+			<offset unit="byte">0</offset>
+			<axes>2</axes>
+			<axis_index_order>Last Index Fastest</axis_index_order>
+			<Element_Array>
+				<data_type>UnsignedLSB2</data_type>
+				<unit>data number</unit>
+			</Element_Array>
+			<Axis_Array>
+				<axis_name>Line</axis_name>
+				<elements>1728</elements>
+				<sequence_number>1</sequence_number>
+			</Axis_Array>
+			<Axis_Array>
+				<axis_name>Sample</axis_name>
+				<elements>2352</elements>
+				<sequence_number>2</sequence_number>
+			</Axis_Array>
+			<Object_Statistics>
+				<maximum>1023</maximum>
+				<minimum>0</minimum>
+				<mean>152.039</mean>
+				<standard_deviation>182.252</standard_deviation>
+			</Object_Statistics>
+		</Array_2D_Image>
+	</File_Area_Observational>
+</Product_Observational>
